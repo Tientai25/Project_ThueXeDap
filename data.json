@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "title": "Mountain Bike",
+        "description": "Lorem ipsum dolor sit amet consectetur. Repellendus non, dicta libero incidunt neque voluptatem!",
+        "price": 10000000,
+        "img": "assets/images/xe-dap-the-thao-cao-cap-1-1.png"
+    },
+    {
+        "id": 2,
+        "title": "City Bike",
+        "description": "Lorem ipsum dolor sit amet consectetur. Repellendus non, dicta libero incidunt neque voluptatem!",
+        "price": 10000000,
+        "img": "assets/images/xe-dap-the-thao-cao-cap-2-1.png"
+    },
+    {
+        "id": 3,
+        "title": "Road Bike",
+        "description": "Lorem ipsum dolor sit amet consectetur. Repellendus non, dicta libero incidunt neque voluptatem!",
+        "price": 10000000,
+        "img": "assets/images/xe-dap-the-thao-cao-cap-3-1.png"
+    },
+    {
+        "id": 4,
+        "title": "City Bike",
+        "description": "Lorem ipsum dolor sit amet consectetur. Repellendus non, dicta libero incidunt neque voluptatem!",
+        "price": 10000000,
+        "img": "assets/images/xe-dap-the-thao-cao-cap-4-1.png"
+    },
+    {
+        "id": 5,
+        "title": "Mountain Bike",
+        "description": "Lorem ipsum dolor sit amet consectetur. Repellendus non, dicta libero incidunt neque voluptatem!",
+        "price": 10000000,
+        "img": "assets/images/xe-dap-the-thao-cao-cap-5-1.png"
+    },
+    {
+        "id": 6,
+        "title": "Road Bike",
+        "description": "Lorem ipsum dolor sit amet consectetur. Repellendus non, dicta libero incidunt neque voluptatem!",
+        "price": 10000000,
+        "img": "assets/images/xe-dap-the-thao-cao-cap-6-1.png"
+    },
+    {
+        "id": 7,
+        "title": "City Bike",
+        "description": "Lorem ipsum dolor sit amet consectetur. Repellendus non, dicta libero incidunt neque voluptatem!",
+        "price": 10000000,
+        "img": "assets/images/xe-dap-the-thao-cao-cap-7-1.png"
+    },
+    {
+        "id": 8,
+        "title": "Sport Bike",
+        "description": "Lorem ipsum dolor sit amet consectetur. Repellendus non, dicta libero incidunt neque voluptatem!",
+        "price": 10000000,
+        "img": "assets/images/xe-dap-the-thao-cao-cap-8-1.png"
+    }
+]
