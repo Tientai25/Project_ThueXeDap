@@ -53,10 +53,11 @@
 
 .cart-remove {
     width: 10%;
-    ;
+
 }
 
 .cart-remove button {
+    cursor: pointer;
     background-color: #006064;
     padding: 10px 20px;
     border: none;
@@ -69,10 +70,10 @@
     margin-bottom: 50px;
 }
 
-.product-total h2 {
+.product-total {
     text-align: right;
     margin: 20px 0;
-    font-size: 30px;
+    /* font-size: 30px; */
 }
 
 .product-checkout {

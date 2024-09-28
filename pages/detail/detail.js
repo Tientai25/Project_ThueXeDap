@@ -4,14 +4,15 @@ const cartIcon = document.querySelector('.cart');
 
 const getDetailProduct = async () => {
     const path = new URLSearchParams(window.location.search);
-    
+
     const productId = path.get('id');
 
     const respone = await fetch('../../data.json');
 
     const data = await respone.json();
-    // const findProductId = data.find(item => item.id.toString() === productId.toString());
-    const findProductId = data.find(item => item.id.toString() === productId.toString())
+
+    const findProductId = data.find(item => item.id.toString() === productId.toString());
+
 
     detailContainer.innerHTML = `
         <div class="detail">
@@ -27,6 +28,7 @@ const getDetailProduct = async () => {
                </div>
            </div>
        </div>
+         
    `
 
     btnAddCart.addEventListener('click', () => {
@@ -59,10 +61,11 @@ const setCartItem = () => {
     if (cart && cart.length > 0) {
         cartIcon.innerHTML =
             ` <p class="cart-item">${cart.length}</p>
-                <i class="fa fa-shopping-bag"></i>
-                `
+                    <i class="fa fa-shopping-bag"></i>
+                    `
     }
 }
+
 
 setCartItem();
 getDetailProduct();
