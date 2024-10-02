@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thêm Xe Đạp</title>
+    <link rel="stylesheet" href="add-bike.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Thêm Xe Đạp</h1>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="bikeName">Tên Xe Đạp</label>
+                <input type="text" id="bikeName" name="bikeName" required>
+            </div>
+
+            <div class="form-group">
+                <label for="bikeType">Loại Xe</label>
+                <select id="bikeType" name="bikeType" required>
+                    <option value="mountain">Xe đạp leo núi</option>
+                    <option value="road">Xe đạp đường trường</option>
+                    <option value="hybrid">Xe đạp </option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="bikeColor">Màu Xe</label>
+                <input type="text" id="bikeColor" name="bikeColor" required>
+            </div>
+
+            <div class="form-group">
+                <label for="bikePrice">Giá</label>
+                <input type="number" id="bikePrice" name="bikePrice" required>
+            </div>
+
+            <button type="submit">Thêm Xe</button>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -66,6 +66,5 @@ const setCartItem = () => {
     }
 }
 
-
 setCartItem();
 getDetailProduct();

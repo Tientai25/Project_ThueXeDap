@@ -86,7 +86,7 @@ let totalProducts = async () => {
         <button onclick="clearCart()" class="removeAll">clear cart</button>
     
 `
-    } else rutern;
+    } else return;
 }
 
 let removeItem = (id) => {
