@@ -54,6 +54,7 @@ header {
     margin: 15px;
     padding: 5px;
     transition: all .3s;
+    cursor: pointer;
 }
 
 .header_info i:hover {
