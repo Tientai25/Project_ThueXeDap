@@ -126,16 +126,17 @@ header {
     font-size: 20px;
 }
 
-#hero button {
+#hero button a {
     padding: 15px 30px;
     background-color: #004D40;
     color: white;
     border: none;
     cursor: pointer;
     font-size: 16px;
+    text-decoration: none;
 }
 
-#hero button:hover {
+#hero button a:hover {
     background-color: #00796B;
 }
 

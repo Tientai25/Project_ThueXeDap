@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management</title>
+    <link rel="stylesheet" href="user.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>User Management</h1>
+        <table id="userTable">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Username</th>
+                    <th>Email</th>
+                    <th>Role</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Dữ liệu user sẽ được thêm ở đây -->
+            </tbody>
+        </table>
+        <button class="add-user" onclick="showAddUserModal()">Add User</button>
+        <button class="home-button" onclick="goToHomePage()">Trang Chủ</button>
+    </div>
+
+    <!-- Modal thêm/sửa user -->
+    <div id="userModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="modalTitle">Add User</h2>
+            <input type="hidden" id="userId">
+            <label for="username">Username:</label>
+            <input type="text" id="username">
+            <label for="email">Email:</label>
+            <input type="text" id="email">
+            <label for="role">Role:</label>
+            <select id="role">
+                <option value="Admin">Admin</option>
+                <option value="User">User</option>
+            </select>
+            <button onclick="saveUser()">Save</button>
+
+        </div>
+    </div>
+
+    <script src="user.js"></script>
+</body>
+
+</html>
