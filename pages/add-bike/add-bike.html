@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="vi">
 
 <head>
@@ -40,5 +40,54 @@
         </form>
     </div>
 </body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="add-bike.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Thêm Xe Đạp</h1>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="bikeId">ID Xe Đạp</label>
+                <input type="text" id="bikeId" name="bikeId" required>
+            </div>
+
+            <div class="form-group">
+                <label for="bikeTitle">Tên Xe Đạp</label>
+                <input type="text" id="bikeTitle" name="bikeTitle" required>
+            </div>
+
+            <div class="form-group">
+                <label for="bikeDescription">Mô Tả</label>
+                <textarea id="bikeDescription" name="bikeDescription" rows="4" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="bikePrice">Giá (VND)</label>
+                <input type="number" id="bikePrice" name="bikePrice" required>
+            </div>
+
+            <div class="form-group">
+                <label for="bikeImg">Hình Ảnh Xe</label>
+                <input type="file" id="bikeImg" name="bikeImg" accept="image/*" required>
+            </div>
+
+            <button type="submit">Thêm Xe Đạp</button>
+        </form>
+    </div>
+    <script src="add-bike.js"></script>
+</body>
+
 
 </html>
