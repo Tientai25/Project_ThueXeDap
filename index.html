@@ -36,7 +36,7 @@
 
         <div class="header_info">
             <!-- <i class="fa fa-search"></i> -->
-            <a href="pages/add-bike/add-bike.html"> <i class="fa-solid fa-plus">123</i></a>
+            <a href="pages/management-user/user.html"> <i class="fa-solid fa-users">123</i></a>
             <a class="cart" href="pages/cart/cart.html">
                 <!-- <p class="cart-item">0</p> -->
                 <i class="fa fa-shopping-bag"></i>
@@ -54,16 +54,45 @@
             <h2>Đồng hành với bạn trên mọi nẻo đường </h2>
 
             <p>Chọn chiếc xe đạp phù hợp và bắt đầu cuộc hành trình của bạn ngay hôm nay!</p>
-            <button onclick="scrollToSection('bikes')"><a href="pages/management-user/user.html">Thuê xe
+            <button onclick="scrollToSection('bikes')"><a href="pages/add-bike/add-bike.html">Thuê xe
                     ngay</a></button>
         </div>
     </section>
+    <section id="search-bike">
+        <div class="search-container">
+            <h2>Tìm kiếm xe đạp</h2>
+            <div class="search-box">
+                <div class="search-item">
+                    <label for="location"><i class="fa fa-map-marker-alt"></i> Địa điểm</label>
+                    <select id="location">
+                        <option value="hcm">Hồ Chí Minh</option>
+                        <option value="hn">Hà Nội</option>
+                        <option value="dn">Đà Nẵng</option>
+                    </select>
+                </div>
+                <div class="search-item">
+                    <label for="from-date"><i class="fa fa-calendar-alt"></i> Từ ngày</label>
+                    <input type="datetime-local" id="from-date" value="2024-10-06T21:00">
+                </div>
+                <div class="search-item">
+                    <label for="to-date"><i class="fa fa-calendar-alt"></i> Đến ngày</label>
+                    <input type="datetime-local" id="to-date" value="2024-10-07T20:00">
+                </div>
+                <div class="search-item">
+                    <button class="search-btn"><i class="fa fa-search"></i> Tìm kiếm</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 
     <section id="about" class="container">
         <h2>Giới thiệu</h2>
         <p>Chúng tôi cung cấp dịch vụ thuê xe đạp chất lượng cao với nhiều loại xe đa dạng phù hợp cho mọi nhu cầu. Dịch
             vụ của chúng tôi luôn sẵn sàng phục vụ bạn với mức giá hợp lý</p>
     </section>
+
 
 
     <h2>Xe đạp nổi bật</h2>
@@ -81,10 +110,7 @@
             </div>
         </div>
 
-
-
     </section>
-
 
 
     <!-- products -->

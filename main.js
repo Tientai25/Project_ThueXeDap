@@ -24,3 +24,4 @@ const getData = async () => {
 }
 
 getData();
+
