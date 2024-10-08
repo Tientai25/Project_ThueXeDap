@@ -393,3 +393,57 @@ footer {
         width: 100%;
     }
 }
+
+
+/* nut pagination*/
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    /* Căn giữa các phần tử trong pagination */
+    align-items: center;
+    margin: 20px 0;
+    /* Khoảng cách với các phần tử xung quanh */
+}
+
+.pagination button {
+    background-color: #006064;
+    /* Màu nền của nút */
+    color: white;
+    /* Màu chữ của nút */
+    border: none;
+    /* Loại bỏ viền */
+    padding: 10px 20px;
+    /* Khoảng cách bên trong nút */
+    margin: 0 5px;
+    /* Khoảng cách giữa các nút */
+    border-radius: 5px;
+    /* Bo góc cho nút */
+    cursor: pointer;
+    /* Thay đổi con trỏ khi hover */
+    font-size: 16px;
+    /* Kích thước chữ */
+    transition: background-color 0.3s ease;
+    /* Hiệu ứng khi hover */
+}
+
+.pagination button:hover {
+    background-color: #004d40;
+    /* Màu nền khi hover */
+}
+
+.pagination button:disabled {
+    background-color: #ccc;
+    /* Màu nút khi bị disable */
+    cursor: not-allowed;
+    /* Con trỏ không cho phép click */
+}
+
+.pagination #page-info {
+    margin: 0 10px;
+    /* Khoảng cách giữa nút và thông tin trang */
+    font-size: 16px;
+    /* Kích thước chữ */
+    color: #333;
+    /* Màu của thông tin trang */
+}
